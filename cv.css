@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('lato/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('lato/Lato-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+/* ----- General ----- */
+
+body {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lato', Calibri;
+    padding: 0%;
+    margin: 0%;
+
+    height: 100vh;
+    min-height: 1000px;
+    max-height: 100vh;
+}
+
+/* ----- Panel lateral ----- */
+
+#panel_lateral {
+    color: #FFFFFF;
+    background-color: #393E52;
+
+    width: 30vw;
+    min-width: 300px;
+    max-width: 30vw;
+
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+        padding: 0%;
+        margin: 0% 0% 0% 10%;
+
+        border-bottom-style: ridge;
+        border-color: #FFFFFF;
+        border-width: thin;
+    }
+    
+    p {
+        font-size: 14px;
+        padding: 20px 0% 0% 0%;
+        margin: 0% 0% 0% 10%;
+
+        /* Variació 1 */
+        .var1 { font-size: 16px; }
+    }
+}
+
+#foto_perfil {
+    height: 25%;
+
+    img {
+        display: block;
+        border-radius: 50%;
+        padding: 5% 0% 5% 0%;
+        margin: 0% auto 0% auto;
+
+        width: auto;
+        height: 75%;
+    }
+}
+
+#contacte {
+    height: 20%;
+}
+
+#educacio {
+    height: 30%;
+}
+
+#idiomes {
+    height: 25%;
+}
+
+/* ----- Contingut ----- */
+
+#contingut {
+    color: #393E52;
+    background-color: #FFFFFF;
+
+    width: 70vw;
+    min-width: 400px;
+    max-width: 70vw;
+
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+        padding: 0% 0% 0% 5%;
+        margin: 0% 0% 0% 0%;
+
+        border-bottom-style: ridge;
+        border-color: #393E52;
+        border-width: thin;
+    }
+}
+
+#titol {
+    display: flex;
+    flex-direction: column;
+    
+    height: 25%;
+
+    h1 {
+        font-size: 48px;
+        font-weight: normal;
+        padding: 50px 0% 0% 5%;
+        margin: 0% 0% 0% 0%;
+
+        border: none;
+    }
+    h2 {
+        font-size: 24px;
+        font-weight: normal;
+        padding: 0% 0% 0% 5%;
+        margin: 0% 0% 0% 0%;
+    }
+}
+
+#exp_laboral {
+    height: 50%;
+}
+
+#contingut_exp_laboral {
+    margin: 20px 0% 0% 5%;
+
+    border-left-style: ridge;
+    border-color: #393E52;
+    border-width: thin;
+
+    p {
+        color: #505050;
+        font-size: 14;
+        padding: 0% 0% 0% 10px;
+        margin: 0% 0% 0% 0%;
+    }
+}
+
+#habilitats {
+    height: 25%;
+
+    ul {
+        padding: 0% 0% 0% 1.5em;
+        margin: 0% 0% 0% 5%;
+
+        li {
+            padding: 20px 0% 0% 0%;
+            margin: 0% 0% 0% 0%;
+        }
+    }   
+}
