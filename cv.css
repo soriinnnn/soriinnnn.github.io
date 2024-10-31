@@ -104,9 +104,6 @@ body {
 }
 
 #titol {
-    display: flex;
-    flex-direction: column;
-    
     height: 25%;
 
     h1 {
